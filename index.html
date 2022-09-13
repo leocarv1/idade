@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        Veriicador de idade
+    </header>
+
+
+    <section>
+        <div>
+            <p>Ano de nascimento <input type="number" name="txtano" id="txtano"></p>
+            <p>
+                Já fez aniversário esse ano? <input type="radio" name="radniver" id="sim" checked>
+                <label for="sim">Sim</label>
+                <input type="radio" name="radniver" id="nao">
+                <label for="nao">Não</label>
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminio</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+                
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver os resultado.
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; Leonardo Carvalho</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
